@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: PierSans;
+}
+
+@font-face {
+    font-family: 'PierSans';
+    src: url(PPPierSans-Bold.otf);
+}
+
+.main {
+    display: grid;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.top {
+    padding: 2rem;
+    display: grid;
+}
+
+.small-img {
+    width: 350px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.imagegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+.service-grid {
+    padding: 2rem;
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+    background-color: white;
+    border-radius: 3rem;
+    
+}
+.service-grid:hover {
+    filter: brightness(80%); /* Reduce the brightness to 70% on hover */
+    cursor: pointer;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 4rem;
+}
+
+.red-price {
+    color: red;
+}
+
+.green-price {
+    color: green; /* Set the color of the text directly inside the green-price class to green */
+}
+
+.coach {
+    font-size: 1.2em;
+    color: rgb(104, 104, 255);
+}
+
+/* CSS
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+} */
